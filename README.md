@@ -11,4 +11,4 @@
 
 Работа проверена на кроссбраузерность в: Google Chrome, Mozila Firefox, Microsoft Edge, а также Yandex Browser.
 
-В дальнейшем планируется добавить форму для обратной связи с пользователями.
+Проект на Github pages: https://driftkingb.github.io/russian-travel/index.html
