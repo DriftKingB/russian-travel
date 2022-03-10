@@ -1,0 +1,13 @@
+.place__link {
+  color: #fff;
+  line-height: 1.222;
+  font-size: 18px;
+  font-weight: normal;
+  transition: opacity 0.3s;
+  cursor: url('../../../images/Pointer.svg'),
+          url('../../../images/Pointer.cur'), pointer;
+}
+
+.place__link:hover {
+  opacity: 0.3;
+}

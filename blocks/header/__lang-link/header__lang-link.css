@@ -1,0 +1,26 @@
+.header__lang-link {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.167;
+  font-size: 24px;
+  font-weight: normal;
+  transition: opacity 0.3s;
+  cursor: url('../../../images/Pointer.svg'),
+          url('../../../images/Pointer.cur'), pointer;
+}
+
+.header__lang-link:hover {
+  opacity: 0.3;
+}
+
+.header__lang-link:first-of-type {
+  margin-right: 18px;
+}
+
+@media (max-width: 544px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.111;
+  }
+}

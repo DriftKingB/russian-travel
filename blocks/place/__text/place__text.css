@@ -1,0 +1,9 @@
+.place__text {
+  width: 100%;
+}
+
+@media (max-width: 544px) {
+  .place__text {
+    width: calc((1500vw - 768px)/14);
+  }
+}

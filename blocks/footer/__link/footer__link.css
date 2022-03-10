@@ -1,0 +1,26 @@
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.125;
+  font-size: 16px;
+  font-weight: normal;
+  transition: opacity 0.3s;
+  cursor: url('../../../images/Pointer.svg'),
+          url('../../../images/Pointer.cur'), pointer;
+}
+
+.footer__link:not(:last-of-type) {
+  margin-right: 18px;
+}
+
+.footer__link:hover {
+  opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .footer__link {
+    margin-bottom: calc((-100vw + 768px)/14);
+    font-size: calc((-100vw + 1664px)/56);
+    line-height: calc((-300vw + 6336px)/224);
+  }
+}

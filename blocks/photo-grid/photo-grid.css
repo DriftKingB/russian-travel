@@ -1,0 +1,20 @@
+.photo-grid {
+  margin: 92px 48px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    margin: calc((100vw + 4864px)/64) calc((300vw - 1536px)/32) 0;
+    gap: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-grid {
+    margin: calc((300vw + 2624px)/56) calc((100vw + 576px)/56) 0;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,26 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 92px auto 0 148px;
+  max-width: 690px;
+}
+
+@media (max-width: 1280px) {
+  .intro {
+    margin: calc((-100vw + 4224px)/32) auto 0 calc((2500vw - 22528px)/64);
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 720px;
+    margin: calc((300vw + 3328px)/64) calc((13100vw - 97536px)/128) 0 calc((300vw - 1536px)/32);
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin: calc((300vw + 2624px)/56) calc((100vw + 576px)/56) 0;
+  }
+}

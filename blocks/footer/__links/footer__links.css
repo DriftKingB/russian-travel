@@ -1,0 +1,11 @@
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc((9500vw - 8896px)/112 - 20px);
+}
+
+@media (max-width: 544px) {
+  .footer__links {
+    max-width: 100vw;
+  }
+}

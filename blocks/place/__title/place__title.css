@@ -1,0 +1,28 @@
+.place__title {
+  width: 100%;
+  margin: 0;
+  line-height: 1.056;
+  font-size: 72px;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 1024px) {
+  .place__title {
+    line-height: calc((1500vw - 5632px)/128);
+    font-size: calc((1500vw - 6144px)/128);
+  }
+}
+
+@media (max-width: 768px) {
+  .place__title {
+    font-size: calc((500vw + 5568px)/224);
+    line-height: calc((1100vw + 12160px)/448);
+  }
+}
+
+@media (max-width: 544px) {
+  .place__title {
+    width: calc((1500vw - 768px)/14);
+  }
+}
